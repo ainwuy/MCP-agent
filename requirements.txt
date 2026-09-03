@@ -1,0 +1,11 @@
+mcp
+httpx
+python-dotenv
+langgraph
+langchain
+langchain-community
+langchain-core
+langchain-mcp-adapters
+dashscope
+fastapi
+uvicorn
