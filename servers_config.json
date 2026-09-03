@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "python",
+      "args": ["weather_server.py"],
+      "transport": "stdio"
+    },
+    "write": {
+      "command": "python",
+      "args": ["write_server.py"],
+      "transport": "stdio"
+    },
+    "amap": {
+      "command": "python",
+      "args": ["amap_server.py"],
+      "transport": "stdio"
+    }
+  }
+}
