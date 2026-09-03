@@ -1,0 +1,51 @@
+# ===== 环境变量（含密钥，绝不提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===== Node.js（Vite 前端）=====
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== 运行时产物 =====
+output/
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 编辑器 / IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== macOS / Windows 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 备份 / 杂项 =====
+*.bak
+*~
+*.swp
